@@ -1,0 +1,18 @@
+.buttonPrimary{
+ width: 80%;
+ max-width: 300px;
+ height: 60px;
+ background-color: var(--color-blue-light);
+ color: var(--color-black);
+ font-weight: 500;
+ font-size: var(--size24);
+ border: none;
+ border-radius: 30px;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+.buttonPrimary:hover{
+ background-color: var(--color-white);
+ color: var(--color-black);
+}

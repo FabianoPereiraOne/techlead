@@ -1,0 +1,83 @@
+.hero{
+ max-width: 1280px;
+ margin: 0 auto;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 36px;
+ background: url("/static/images/rectangle.webp");
+ background-position: right 160px bottom -60px;
+ background-repeat: no-repeat;
+ background-size: contain;
+ 
+}
+
+
+.hero::before{
+ content: '';
+ width: 689px;
+height: 689px;
+ border-radius: 689px;
+ opacity: 0.3;
+ background: var(--Colors-GreenLight, #05F26C);
+ filter: blur(479px);
+ position: absolute;
+ left: 0;
+ top: 0;
+ z-index: 0;
+}
+
+.boxTitle{
+ width: 50%;
+ height: auto;
+ z-index: 1;
+}
+
+.boxTitle strong{
+ font-size: var(--size24);
+ font-weight: 400;
+ color: var(--color-white);
+}
+
+.boxTitle h1{
+ font-size: var(--size48);
+ font-weight: 700;
+ color: var(--color-green-light);
+ margin: 8px 0 0 0;
+ max-width: 460px;
+ line-height: 1em;
+}
+
+.boxTitle h1 span{
+ -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: var(--color-green-light);
+ color: var(--color-black);
+}
+
+.boxTitle p{
+ font-size: var(--size16);
+ font-weight: 400;
+ color: var(--color-white);
+ margin: 24px 0 0 0;
+ max-width: 360px;
+ line-height: 1.5em;
+}
+
+.boxTitle button{
+ margin: 40px 0 0 0;
+}
+
+.boxEbook{
+ width: 50%;
+ height: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+.boxEbook img{
+ max-width: 100%;
+ max-height: 100%;
+ object-fit: contain;
+}
